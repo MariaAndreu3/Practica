@@ -1,7 +1,7 @@
 import { Person } from './Clases/person';
-import { Address } from './clases/address';
-import { Mail } from './clases/mail';
-import { Phone } from './clases/phone';
+import { Address } from './Clases/address';
+import { Mail } from './Clases/mail';
+import { Phone } from './Clases/phone';
 
 function buildAgenda(): Array<Person> 
     {
