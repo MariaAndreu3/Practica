@@ -59,15 +59,15 @@ function changePersonData(
 let agenda = buildAgenda();
 showAgenda(agenda);
 
-const dniPerson1: string = '21112002O';
-const newAddressPerson1: Address = new Address('Avenida Otoño', 55, 4, 'Q', 16468, 'Ciudad Luminalia', 'Kalos');
-const newMailPerson1: Mail = new Mail('Personal', 'petratora@solo.com');
-const newPhonePerson1: Phone = new Phone('Personal', 685731991);
+const dniPerson1: string = '32165985P';
+const newAddressPerson1: Address = new Address('Avenida Luchadores', 13, 4, 'A', 18852, 'Madrid', 'Madrid');
+const newMailPerson1: Mail = new Mail('Personal', 'saramartinezmartinez@gmail.com');
+const newPhonePerson1: Phone = new Phone('Personal', 656536258);
 
-const dniPerson2: string = '41053933L';
-const changeAddressPerson2: Address = new Address('Bulevar Sur', 2, 2, 'C', 16468, 'Luminalia', 'Kalos');
-const changeMailPerson2: Mail = new Mail('Trabajo', 'aloeentrenadora@gimnasiospokemon.com');
-const changePhonePerson2: Phone = new Phone('Trabajo', 885333456);
+const dniPerson2: string = '14785236D';
+const changeAddressPerson2: Address = new Address('Calle Callosa', 3, 2, 'B', 19854, 'Elche', 'Alicante');
+const changeMailPerson2: Mail = new Mail('Trabajo', 'antonpepe@gmail.com');
+const changePhonePerson2: Phone = new Phone('Trabajo', 632145236);
 
 addNewPersonData(dniPerson1, newAddressPerson1, newMailPerson1, newPhonePerson1);
 changePersonData(dniPerson2, changeAddressPerson2, changeMailPerson2, changePhonePerson2);
